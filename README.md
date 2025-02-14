@@ -25,3 +25,16 @@ After configuring AWS, proceed with deploying the infrastructure by following th
 2. Initialize Terraform:
    ```sh
    terraform init
+   ```
+3. Generate a plan for the deployment:
+   ```sh
+   terraform plan
+   ```
+4. Apply the plan to deploy the infrastructure:
+   ```sh
+   terraform apply
+   ```
+
+## Accessing the Webpage
+
+Once the infrastructure has been deployed, you can find the URL to the webpage in the terminal output.
